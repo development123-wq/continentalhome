@@ -1,0 +1,341 @@
+{
+    "menu": [
+        {
+            "name": "Dashboard",
+            "routerLink": ["dashboard"],
+            "identifier": "Dashboard",
+            "iconClass": "icofont-home fs-5",
+            "breadcrumbMessage": "Welcome to Analytics Dashboard.",
+            "isCategory": false,
+            "isApp": false,
+            "children": []
+        },
+        {
+            "name": "Blog Posts",
+            "routerLink": [],
+            "identifier": "Blog Posts",
+            "iconClass": "icofont-code-alt fs-5",
+            "breadcrumbMessage": "",
+            "isCategory": false,
+            "isApp": false,
+            "children": [
+               
+                {
+                    "name": "All Blogs",
+                    "routerLink": ["all-blogs"],
+                    "identifier": "All Blogs",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "Add Blog",
+                    "routerLink": ["add-blog"],
+                    "identifier": "Add Blog",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }
+
+            ]
+        },
+        {
+            "name": "Products",
+            "routerLink": [""],
+            "identifier": "Products",
+            "iconClass": "icofont-truck-loaded fs-5",
+            "breadcrumbMessage": "",
+            "isCategory": false,
+            "isApp": false,
+            "children": [
+                
+                {
+                    "name": "All Products",
+                    "routerLink": ["product-list"],
+                    "identifier": "Product List",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                
+                {
+                    "name": "Product Add",
+                    "routerLink": ["product-Add"],
+                    "identifier": "Product Add",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                
+                {
+                    "name": "Product Import",
+                    "routerLink": ["product-import"],
+                    "identifier": "Product Import",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }
+                
+
+            ]
+        },
+
+        {
+            "name": "Categories",
+            "routerLink": [""],
+            "identifier": "Categories",
+            "iconClass": "icofont-chart-flow fs-5",
+            "breadcrumbMessage": "",
+            "isCategory": false,
+            "isApp": true,
+            "children": [
+                {
+                    "name": "Categories List",
+                    "routerLink": ["categories-list"],
+                    "identifier": "Categories List",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                
+                {
+                    "name": "Categories Add",
+                    "routerLink": ["categories-add"],
+                    "identifier": "Categories Add",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "SubCategories List",
+                    "routerLink": ["subcategories-list"],
+                    "identifier": "SubCategories List",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                
+                {
+                    "name": "SubCategory Add",
+                    "routerLink": ["subcategories-add"],
+                    "identifier": "SubCategories Add",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Orders",
+            "routerLink": [""],
+            "identifier": "Orders",
+            "iconClass": "icofont-notepad fs-5",
+            "breadcrumbMessage": "",
+            "isCategory": false,
+            "isApp": true,
+            "children": [
+                {
+                    "name": "Orders List",
+                    "routerLink": ["order-list"],
+                    "identifier": "Orders List",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }
+            ]
+        },
+        {
+            "name": "Customers",
+            "routerLink": [""],
+            "identifier": "Customers",
+            "iconClass": "icofont-funky-man fs-5",
+            "breadcrumbMessage": "",
+            "isCategory": false,
+            "isApp": true,
+            "children": [
+                {
+                    "name": "Customers List",
+                    "routerLink": ["customer-list"],
+                    "identifier": "Customers List",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }  
+            ]
+        },
+        {
+            "name": "Sales Promotion",
+            "routerLink": [""],
+            "identifier": "Sales Promotion",
+            "iconClass": "icofont-sale-discount fs-5",
+            "breadcrumbMessage": "",
+            "isCategory": false,
+            "isApp": true,
+            "children": [
+                {
+                    "name": "Coupons List",
+                    "routerLink": ["coupons-list"],
+                    "identifier": "Coupons List",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "Coupons Add",
+                    "routerLink": ["coupons-add"],
+                    "identifier": "Coupons Add",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }
+            ]
+        },
+      
+   
+      
+        
+     
+        {
+            "name": "Other Pages",
+            "routerLink": [],
+            "identifier": "Other Pages",
+            "iconClass": "icofont-code-alt fs-5",
+            "breadcrumbMessage": "",
+            "isCategory": false,
+            "isApp": false,
+            "children": [
+               
+                {
+                    "name": "About Us",
+                    "routerLink": ["about-us"],
+                    "identifier": "About Us",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                
+                {
+                    "name": "Banner Images",
+                    "routerLink": ["banner-image"],
+                    "identifier": "Banner Images",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "Featured Products",
+                    "routerLink": ["featured-products"],
+                    "identifier": "Featured Products",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "Contact Us",
+                    "routerLink": ["contact-us"],
+                    "identifier": "Contact Us",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "Privacy Policy",
+                    "routerLink": ["privacypolicy"],
+                    "identifier": "Privacy Policy",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "Terms & Conditions",
+                    "routerLink": ["terms-conditions"],
+                    "identifier": "Terms & Conditions",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                },
+                {
+                    "name": "Return & Refund",
+                    "routerLink": ["return-and-refund"],
+                    "identifier": "Return & Refund",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }
+                ,
+                {
+                    "name": "FAQs",
+                    "routerLink": ["admin-faqs"],
+                    "identifier": "FAQs",
+                    "iconClass": "",
+                    "breadcrumbMessage": "",
+                    "isCategory": false,
+                    "isApp": false,
+                    "children": []
+                }
+                
+
+            ]
+        },
+        {
+            "name": "Subscribers",
+            "routerLink": ["subscribers"],
+            "identifier": "Subscribers",
+            "iconClass": "icofont-users fs-5",
+            "breadcrumbMessage": "Welcome to Analytics Dashboard.",
+            "isCategory": false,
+            "isApp": false,
+            "children": []
+        },
+        {
+            "name": "Support",
+            "routerLink": ["support"],
+            "identifier": "Support",
+            "iconClass": "icofont-headphone fs-5",
+            "breadcrumbMessage": "Welcome to Analytics Dashboard.",
+            "isCategory": false,
+            "isApp": false,
+            "children": []
+        }
+    ]
+}

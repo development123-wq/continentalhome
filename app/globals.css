@@ -24,3 +24,61 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.swiper-button-next,.swiper-button-prev{
+  display:none !important;
+}
+.h1,h1,.inner-banner-text h1{
+  font-size: 2.5rem;
+}
+.h2, h2 {
+        font-size: 2rem ;
+    }
+    .inner-banner-bottom p{
+      font-size: 1rem !important;
+    }
+.col-md-6{
+  max-width:50% !important;
+  width:100% !important;
+}
+.aboutus-content img{
+  width: 100% !important;
+  
+}
+.col-md-3{
+  max-width:30% !important;
+  width:100% !important;
+}
+
+.col-md-9{
+   max-width:70% !important;
+  width:100% !important;
+}
+.col-md-12{
+   max-width:1240px !important;
+  width:100% !important;
+  margin:auto !important;
+  
+}
+.col-md-4{
+   max-width:33.3% !important;
+  width:100% !important;
+}
+.related-products-conatiner{
+  padding-top:50px !important;
+}
+.contact-address-section{
+    margin:auto !important;
+
+}
+.user-actions a{
+  display:flex !important; 
+}
+.h3, h3 {
+        font-size: 1.75rem;
+    }
+
+    .product-define h3{
+      font-size: 15px !important;
+      margin-bottom:10px !important;
+    }
